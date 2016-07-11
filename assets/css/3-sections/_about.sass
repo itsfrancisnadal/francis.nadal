@@ -1,0 +1,108 @@
+.face-lockup
+  max-width: 780px
+  +display(flex)
+  margin: 0 auto
+  +align-items(center)
+  +justify-content(space-between)
+
+.face-img
+  +size(200px)
+  border-radius: 50%
+  background: url(../img/#{$avatar-path}) center center
+  background-size: cover
+  +order(3)
+
+[class^="icon-"]
+  +size(100px)
+  background: $bgColor
+  font-size: 40px
+  border-radius: 50%
+  text-align: center
+  color: #384357
+  vertical-align: middle
+  line-height: 95px
+
+
+  &.icon-coffee
+    +order(1)
+  &.icon-code
+    +order(2)
+  &.icon-gamepad
+    +order(4)
+  &.icon-camera-retro
+    +order(5)
+
+@media screen and (max-width:650px)
+  .face-lockup
+    display: block
+    text-align: center
+
+    div
+      display: inline-block
+
+    .face-img
+      display: block
+      background-position: center center
+      width: auto
+      background-repeat: no-repeat
+      margin: 0 auto
+      margin-bottom: 30px
+      +size(200px)
+      border-radius: 50%
+      background-size: cover
+
+    [class^="icon-"]
+      margin: 20px
+
+.about
+  max-width: 620px
+  padding: 0 15px
+  margin: 50px auto
+  font-size: 24px
+  text-align: center
+  font-weight: 300
+
+.skill-lockup
+  max-width: 540px
+  margin: 100px auto
+  color: #999
+  +clearfix
+
+  .skill-unit
+    width: 270px
+    float: left
+
+  .skill-icons
+    font-size: 0
+    margin: 0px 0 30px
+
+    span
+      display: inline-block
+      +size(14px)
+      background-color: $accent
+      margin-right: 5px
+      border-radius: 50%
+
+      &::after
+        content: ''
+        display: block
+        +size(10px)
+        background: #fff
+        border-radius: 50%
+        margin: 2px
+
+    @for $i from 1 through 10
+      &.skill-#{$i} span:nth-child(n+#{$i+1})
+        background-color: #e5eaee
+
+/*@media screen and (max-width: 720px) and (min-width: 314px)
+  .skill-lockup
+    width: 270px
+    margin: 0 auto*/
+
+@media screen and (max-width: 541px)
+  .skill-lockup
+    width: 220px
+
+    .skill-unit
+      width: 220px

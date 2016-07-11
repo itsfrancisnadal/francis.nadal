@@ -49,7 +49,7 @@ projects:
 
 clients:
 
-- {avatar: 'roncestravels.jpg', name: 'Vhal Roncesballes', title: 'CEO, The Cebu Traveller', quote: '<p><strong>Lorem ipsum dolor sit amet,</strong> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>', logo: 'logo1.png'}
+- {avatar: 'roncestravels.jpg', name: 'Vhal Roncesballes', title: 'CEO, The Cebu Traveller', quote: '<p><strong>Lorem ipsum dolor sit amet,</strong> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>', logo: 'logo1.PNG'}
 
 - {avatar: 'travisdevtips.jpg', name: 'Travis Nielson', title: 'YouTuber, devtipshow.com', quote: "<p><strong>I just had a flashback to my childhood,</strong> we went to like a, uhh, a cactus place. On a field trip. It's weird.</p> <p class='note'>Note: This quotes serve only as placeholders.</p>", logo: 'logo2.png'}
 

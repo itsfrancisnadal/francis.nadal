@@ -1073,6 +1073,7 @@ header {
         font-size: 14px; }
 
 .clients-logos {
+  z-index: 2;
   position: relative;
   max-width: 750px;
   margin: 50px auto 100px;
@@ -1128,7 +1129,7 @@ header {
   right: 0px;
   bottom: 0px;
   left: 0px; 
-  z-index: 2;}
+  z-index: 1;}
   .client-controls > div {
     height: 40px;
     width: 40px;
